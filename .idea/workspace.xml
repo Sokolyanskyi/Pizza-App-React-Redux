@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa00c81-81f2-4101-8e72-8f0c8fe5d3d4" name="Changes" comment="create project" />
+    <list default="true" id="2fa00c81-81f2-4101-8e72-8f0c8fe5d3d4" name="Changes" comment="create project">
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/Input/Input.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/Input/Input.props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/Input/Input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/Button/Button.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/Button/Button.props.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/Button/Button.props.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/index.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -108,7 +119,7 @@
       <workItem from="1698699614641" duration="614000" />
       <workItem from="1698707875598" duration="2059000" />
       <workItem from="1698747866195" duration="599000" />
-      <workItem from="1698791227184" duration="2697000" />
+      <workItem from="1698791227184" duration="7490000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <option name="closed" value="true" />
@@ -126,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698794579620</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create project">
+      <option name="closed" value="true" />
+      <created>1698795145012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698795145012</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,16 +1,15 @@
-import './App.css'
-import Button from "./components/Button/Button.tsx";
-import {useState} from "react";
+import Button from './components/Button/Button.tsx';
+import Input from './components/Input/Input.tsx';
 
 function App() {
-	const [counter, setCounter] = useState(0)
-	setCounter(counter + 1)
-	console.log(counter)
+
 	return (
 		<>
-			<Button onClick={() => console.log('Hi')}>Button</Button>
+			<Button>Button</Button>
+			<Button appearance='big'>Button</Button>
+			<Input placeholder='Email'/>
 		</>
-	)
+	);
 }
 
-export default App
+export default App;
