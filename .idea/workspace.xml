@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fa00c81-81f2-4101-8e72-8f0c8fe5d3d4" name="Changes" comment="button input create &amp; style">
-      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Cart/Cart.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Error/ErrorPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Menu/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/layout/Menu/Menu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Cart/Cart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Cart/Cart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Error/ErrorPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Error/ErrorPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Menu/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Menu/Menu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/main.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +33,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Sokolyanskyi"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sokolyanskyi&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -65,29 +64,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Yaroslav/Desktop/PurpleSchool Project",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Yaroslav\\AppData\\Roaming\\npm\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "C:\\Users\\Yaroslav\\Desktop\\PurpleSchool Project\\PetProjec_Store\\pizza-app\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Yaroslav/Desktop/PurpleSchool Project&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Yaroslav\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Yaroslav\\Desktop\\PurpleSchool Project\\PetProjec_Store\\pizza-app\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Yaroslav\Desktop\PurpleSchool Project\react-app\src\layouts" />
@@ -135,6 +134,7 @@
       <workItem from="1698707875598" duration="2059000" />
       <workItem from="1698747866195" duration="599000" />
       <workItem from="1698791227184" duration="10003000" />
+      <workItem from="1699033608158" duration="3074000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <option name="closed" value="true" />

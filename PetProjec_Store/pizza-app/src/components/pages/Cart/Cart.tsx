@@ -1,3 +1,5 @@
 export function Cart() {
-	return <>Cart</>;
+	return <>
+
+		Cart</>;
 }
