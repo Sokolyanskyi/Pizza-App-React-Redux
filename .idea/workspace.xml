@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa00c81-81f2-4101-8e72-8f0c8fe5d3d4" name="Changes" comment="styling Layout.tsx">
+    <list default="true" id="2fa00c81-81f2-4101-8e72-8f0c8fe5d3d4" name="Changes" comment="useLocation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/layout/layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/layout/layout/Layout.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/layout/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/layout/layout/Layout.tsx" afterDir="false" />
@@ -130,7 +130,7 @@
       <workItem from="1698707875598" duration="2059000" />
       <workItem from="1698747866195" duration="599000" />
       <workItem from="1698791227184" duration="10003000" />
-      <workItem from="1699033608158" duration="9160000" />
+      <workItem from="1699033608158" duration="10353000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <option name="closed" value="true" />
@@ -180,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699052748488</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="useLocation">
+      <option name="closed" value="true" />
+      <created>1699053750259</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699053750259</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +223,7 @@
     <MESSAGE value="button input create &amp; style" />
     <MESSAGE value="BrowserRouter and outlet" />
     <MESSAGE value="styling Layout.tsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="styling Layout.tsx" />
+    <MESSAGE value="useLocation" />
+    <option name="LAST_COMMIT_MESSAGE" value="useLocation" />
   </component>
 </project>
