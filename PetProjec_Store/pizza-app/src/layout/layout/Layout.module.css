@@ -77,3 +77,8 @@
     border: 1px dotted var(--primary-hover-color);
     width: 100px;
 }
+
+.content {
+    padding: 40px 60px;
+    width: 100%;
+}

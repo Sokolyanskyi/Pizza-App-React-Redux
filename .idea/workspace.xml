@@ -4,10 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa00c81-81f2-4101-8e72-8f0c8fe5d3d4" name="Changes" comment="useLocation">
+    <list default="true" id="2fa00c81-81f2-4101-8e72-8f0c8fe5d3d4" name="Changes" comment="NavLink">
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/public/cart-button-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/public/product-demo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/public/search-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/public/star-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/Headling/Headling.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/Headling/Headling.props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/Headling/Headling.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/ProductCard/ProductCard.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/ProductCard/ProductCard.props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/ProductCard/ProductCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/Search/Search.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/Search/Search.props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/Search/Search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Menu/Menu.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Product/Product.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Menu/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Menu/Menu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/layout/layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/layout/layout/Layout.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/layout/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/layout/layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/main.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +38,7 @@
         <option value="JavaScript File" />
         <option value="TypeScript File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -60,34 +79,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Yaroslav/Desktop/PurpleSchool Project&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Yaroslav\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Yaroslav\\Desktop\\PurpleSchool Project\\PetProjec_Store\\pizza-app\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Yaroslav/Desktop/PurpleSchool Project/PetProjec_Store/pizza-app/src",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Yaroslav\\AppData\\Roaming\\npm\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "ts.external.directory.path": "C:\\Users\\Yaroslav\\Desktop\\PurpleSchool Project\\PetProjec_Store\\pizza-app\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yaroslav\Desktop\PurpleSchool Project\PetProjec_Store\pizza-app\src" />
       <recent name="C:\Users\Yaroslav\Desktop\PurpleSchool Project\react-app\src\layouts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yaroslav\Desktop\PurpleSchool Project\PetProjec_Store\pizza-app\src\components" />
       <recent name="C:\Users\Yaroslav\Desktop\PurpleSchool Project\PetProjec_Store\pizza-app\src\components\pages\Error" />
       <recent name="C:\Users\Yaroslav\Desktop\PurpleSchool Project\PetProjec_Store\pizza-app\src\components\pages\Cart" />
       <recent name="C:\Users\Yaroslav\Desktop\PurpleSchool Project\PetProjec_Store\pizza-app\src\components\pages\Menu" />
@@ -130,7 +151,11 @@
       <workItem from="1698707875598" duration="2059000" />
       <workItem from="1698747866195" duration="599000" />
       <workItem from="1698791227184" duration="10003000" />
-      <workItem from="1699033608158" duration="10353000" />
+      <workItem from="1699033608158" duration="11021000" />
+      <workItem from="1699219157903" duration="605000" />
+      <workItem from="1699368707144" duration="1822000" />
+      <workItem from="1699959019939" duration="957000" />
+      <workItem from="1699960603151" duration="9917000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <option name="closed" value="true" />
@@ -188,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699053750259</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="NavLink">
+      <option name="closed" value="true" />
+      <created>1699054984666</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699054984666</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +257,7 @@
     <MESSAGE value="BrowserRouter and outlet" />
     <MESSAGE value="styling Layout.tsx" />
     <MESSAGE value="useLocation" />
-    <option name="LAST_COMMIT_MESSAGE" value="useLocation" />
+    <MESSAGE value="NavLink" />
+    <option name="LAST_COMMIT_MESSAGE" value="NavLink" />
   </component>
 </project>
