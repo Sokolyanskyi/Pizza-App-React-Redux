@@ -9,7 +9,7 @@ function ProductCard(props: ProductCardProps) {
 				<div className={styles['head']} style={{backgroundImage: `url('${props.image}')`}}>
 					<div className={styles['price']}>
 						{props.price}&nbsp;
-						<span className={styles['currency']}>grn</span>
+						<span className={styles['currency']}>₴</span>
 					</div>
 					<button className={styles['add-to-cart']}>
 						<img src="/cart-button-icon.svg" alt="cart-icon-button"/>
@@ -20,7 +20,7 @@ function ProductCard(props: ProductCardProps) {
 					</div>
 				</div>
 				<div className={styles['footer']}>
-					<div className={styles['title']}>{props.title}</div>
+					<div className={styles['title']}>{props.name}</div>
 					<div className={styles['description']}>{props.description}</div>
 				</div>
 
