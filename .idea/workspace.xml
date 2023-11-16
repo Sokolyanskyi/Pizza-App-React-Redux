@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa00c81-81f2-4101-8e72-8f0c8fe5d3d4" name="Changes" comment="learning Axios, loader, defer">
-      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Login/Login.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Login/Login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Register/Register.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Register/Register.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/layout/Auth/AuthLayout.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/layout/Auth/AuthLayout.tsx" afterDir="false" />
+    <list default="true" id="2fa00c81-81f2-4101-8e72-8f0c8fe5d3d4" name="Changes" comment="create register and login layout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/ProductCard/ProductCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/ProductCard/ProductCard.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/Button/Button.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Login/Login.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Login/Login.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Login/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Login/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/layout/Auth/AuthLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/layout/Auth/AuthLayout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +141,7 @@
       <workItem from="1699959019939" duration="957000" />
       <workItem from="1699960603151" duration="23201000" />
       <workItem from="1700005697034" duration="1525000" />
-      <workItem from="1700136455704" duration="5668000" />
+      <workItem from="1700136455704" duration="8228000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <option name="closed" value="true" />
@@ -227,7 +223,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700007220639</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="create register and login layout">
+      <option name="closed" value="true" />
+      <created>1700153509751</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700153509751</updated>
+    </task>
+    <task id="LOCAL-00012" summary="create register and login layout">
+      <option name="closed" value="true" />
+      <created>1700153563476</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1700153563476</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +278,7 @@
     <MESSAGE value="NavLink" />
     <MESSAGE value="create and style Product card" />
     <MESSAGE value="learning Axios, loader, defer" />
-    <option name="LAST_COMMIT_MESSAGE" value="learning Axios, loader, defer" />
+    <MESSAGE value="create register and login layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="create register and login layout" />
   </component>
 </project>

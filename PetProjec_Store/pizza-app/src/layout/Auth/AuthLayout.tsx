@@ -7,7 +7,6 @@ export function AuthLayout() {
 			<img src="/logo.svg" alt="logo"/>
 		</div>
 		<div className={styles['content']}>
-			Content
 			<Outlet/>
 		</div>
 	</div>;
