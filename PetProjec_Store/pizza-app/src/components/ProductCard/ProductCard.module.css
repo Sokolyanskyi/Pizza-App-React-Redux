@@ -73,9 +73,10 @@
     border-radius: 50%;
     width: 34px;
     height: 34px;
-    border: none;
+    /*border: none;*/
     transition: background 0.25s;
     cursor: pointer;
+    border: solid 2px white;
 }
 
 .add-to-cart:hover {
