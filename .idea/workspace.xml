@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa00c81-81f2-4101-8e72-8f0c8fe5d3d4" name="Changes" comment="create register and login layout">
+    <list default="true" id="2fa00c81-81f2-4101-8e72-8f0c8fe5d3d4" name="Changes" comment="form login">
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/helpers/RequireAuth.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/interfaces/auth.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/store/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/store/user.slice.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/Button/Button.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Login/Login.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Login/Login.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Login/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Login/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/layout/Auth/AuthLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/layout/Auth/AuthLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/helpers/API.ts" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/helpers/API.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/layout/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/layout/layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/main.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +27,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -92,11 +99,11 @@
       <recent name="C:\Users\Yaroslav\Desktop\PurpleSchool Project\react-app\src\layouts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yaroslav\Desktop\PurpleSchool Project\PetProjec_Store\pizza-app\src" />
       <recent name="C:\Users\Yaroslav\Desktop\PurpleSchool Project\PetProjec_Store\pizza-app\src\components" />
       <recent name="C:\Users\Yaroslav\Desktop\PurpleSchool Project\PetProjec_Store\pizza-app\src\components\pages\Error" />
       <recent name="C:\Users\Yaroslav\Desktop\PurpleSchool Project\PetProjec_Store\pizza-app\src\components\pages\Cart" />
       <recent name="C:\Users\Yaroslav\Desktop\PurpleSchool Project\PetProjec_Store\pizza-app\src\components\pages\Menu" />
-      <recent name="C:\Users\Yaroslav\Desktop\PurpleSchool Project\react-app\public" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -141,7 +148,7 @@
       <workItem from="1699959019939" duration="957000" />
       <workItem from="1699960603151" duration="23201000" />
       <workItem from="1700005697034" duration="1525000" />
-      <workItem from="1700136455704" duration="8228000" />
+      <workItem from="1700136455704" duration="19674000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <option name="closed" value="true" />
@@ -239,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700153563476</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="form login">
+      <option name="closed" value="true" />
+      <created>1700156155857</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1700156155857</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +294,7 @@
     <MESSAGE value="create and style Product card" />
     <MESSAGE value="learning Axios, loader, defer" />
     <MESSAGE value="create register and login layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="create register and login layout" />
+    <MESSAGE value="form login" />
+    <option name="LAST_COMMIT_MESSAGE" value="form login" />
   </component>
 </project>

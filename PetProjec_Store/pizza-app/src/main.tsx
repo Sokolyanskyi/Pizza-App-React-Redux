@@ -11,13 +11,16 @@ import {PREFIX} from './helpers/API.ts';
 import {AuthLayout} from './layout/Auth/AuthLayout.tsx';
 import {Login} from './components/pages/Login/Login.tsx';
 import {Register} from './components/pages/Register/Register.tsx';
+import {RequireAuth} from './helpers/RequireAuth.tsx';
+import {Provider} from 'react-redux';
+import {store} from '../store/store.ts';
 
 const Menu = lazy(() => import('./components/pages/Menu/Menu.tsx'));
 
 const router = createBrowserRouter([
 	{
 		path: '/',
-		element: <Layout/>,
+		element: <RequireAuth><Layout/></RequireAuth>,
 		children: [
 			{
 				path: '/',
@@ -62,9 +65,9 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
 	<React.StrictMode>
-
-
-		<RouterProvider router={router}/>
+		<Provider store={store}>
+			<RouterProvider router={router}/>
+		</Provider>
 	</React.StrictMode>
 );
 

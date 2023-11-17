@@ -41,3 +41,11 @@
     color: var(--primary-color);
     cursor: pointer;
 }
+
+.error {
+    background: #fa4040;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    max-width: fit-content;
+}
