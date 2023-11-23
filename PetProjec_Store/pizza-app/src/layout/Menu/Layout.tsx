@@ -7,7 +7,7 @@ import {AppDispatch, RootState} from "../../../store/store.ts";
 import {getProfile, userActions} from "../../../store/user.slice.ts";
 import {useEffect} from "react";
 
-cn;
+
 
 export function Layout() {
 	const navigate = useNavigate();

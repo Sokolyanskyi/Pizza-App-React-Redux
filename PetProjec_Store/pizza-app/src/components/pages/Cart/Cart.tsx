@@ -11,7 +11,7 @@ import {AppDispatch, RootState} from "../../../../store/store.ts";
 import CartItem from "../../CartItem/CartItem.tsx";
 import {Product} from "../../../interfaces/product.interface.ts";
 
-const DELIVERY_FEE = 169;
+const DELIVERY_FEE = 70;
 
 export function Cart() {
 	const [cartProducts, setCardProducts] = useState<Product[]>([]);
@@ -65,7 +65,7 @@ export function Cart() {
 			return <CartItem key={product.id} count={i.count} {...product} />;
 		})}
 		<div className={styles['line']}>
-			<div className={styles['text']}>Summary</div>
+			<div className={styles['text']}>Total</div>
 			<div className={styles['price']}>{total}&nbsp;<span>₴</span></div>
 		</div>
 		<hr className={styles['hr']} />
@@ -75,7 +75,7 @@ export function Cart() {
 		</div>
 		<hr className={styles['hr']} />
 		<div className={styles['line']}>
-			<div className={styles['text']}>Summary <span className={styles['total-count']}>({items.length})</span></div>
+			<div className={styles['text']}>Total <span className={styles['total-count']}>({items.length})</span></div>
 			<div className={styles['price']}>{total + DELIVERY_FEE}&nbsp;<span>₴</span></div>
 		</div>
 		<div className={styles['checkout']}>

@@ -11,7 +11,7 @@ function CartItem(props: CartItemProps) {
 		dispatch(cartActions.add(props.id));
 	};
 
-	const descrease = () => {
+	const decrease = () => {
 		dispatch(cartActions.remove(props.id));
 	};
 
@@ -28,7 +28,7 @@ function CartItem(props: CartItemProps) {
 				<div className={styles['price']}>{props.price}&nbsp;₽</div>
 			</div>
 			<div className={styles['actions']}>
-				<button className={styles['minus']} onClick={descrease}>
+				<button className={styles['minus']} onClick={decrease}>
 					<img src="/minus-icon.svg" alt="Удалить из корзины"/>
 				</button>
 				<div className={styles['number']}>{props.count}</div>

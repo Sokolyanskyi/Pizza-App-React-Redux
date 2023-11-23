@@ -4,7 +4,7 @@ import './index.css';
 import {createBrowserRouter, defer, RouterProvider} from 'react-router-dom';
 import {Cart} from './components/pages/Cart/Cart.tsx';
 import {Error} from './components/pages/Error/ErrorPage.tsx';
-import {Layout} from './layout/layout/Layout.tsx';
+import {Layout} from './layout/Menu/Layout.tsx';
 import {Product} from './components/pages/Product/Product.tsx';
 import axios from 'axios';
 import {PREFIX} from './helpers/API.ts';
@@ -14,6 +14,7 @@ import {Register} from './components/pages/Register/Register.tsx';
 import {RequireAuth} from './helpers/RequireAuth.tsx';
 import {Provider} from 'react-redux';
 import {store} from '../store/store.ts';
+import {Success} from "./components/pages/Success/Success.tsx";
 
 const Menu = lazy(() => import('./components/pages/Menu/Menu.tsx'));
 
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
 			{
 				path: '/',
 				element: <Suspense fallback={<>Download...</>}><Menu/></Suspense>
+			},
+			{
+			    path: '/success',
+				element: <Success/>
 			},
 			{
 				path: '/cart',
