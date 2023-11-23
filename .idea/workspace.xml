@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa00c81-81f2-4101-8e72-8f0c8fe5d3d4" name="Changes" comment="form login">
-      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/helpers/RequireAuth.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/interfaces/auth.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/store/store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/store/user.slice.ts" afterDir="false" />
+    <list default="true" id="2fa00c81-81f2-4101-8e72-8f0c8fe5d3d4" name="Changes" comment="redux first action">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Login/Login.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Login/Login.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Login/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/components/pages/Login/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/helpers/API.ts" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/helpers/API.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/layout/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/layout/layout/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PetProjec_Store/pizza-app/src/main.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +67,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Yaroslav/Desktop/PurpleSchool Project/PetProjec_Store/pizza-app/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Yaroslav/Desktop/Marketplace&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
@@ -88,7 +77,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Yaroslav\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Yaroslav\\Desktop\\PurpleSchool Project\\PetProjec_Store\\pizza-app\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -148,7 +137,12 @@
       <workItem from="1699959019939" duration="957000" />
       <workItem from="1699960603151" duration="23201000" />
       <workItem from="1700005697034" duration="1525000" />
-      <workItem from="1700136455704" duration="19674000" />
+      <workItem from="1700136455704" duration="20382000" />
+      <workItem from="1700221582585" duration="5869000" />
+      <workItem from="1700415966334" duration="684000" />
+      <workItem from="1700478551061" duration="173000" />
+      <workItem from="1700592551000" duration="662000" />
+      <workItem from="1700665455097" duration="179000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <option name="closed" value="true" />
@@ -254,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700156155857</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="redux first action">
+      <option name="closed" value="true" />
+      <created>1700179329795</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1700179329795</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +297,7 @@
     <MESSAGE value="learning Axios, loader, defer" />
     <MESSAGE value="create register and login layout" />
     <MESSAGE value="form login" />
-    <option name="LAST_COMMIT_MESSAGE" value="form login" />
+    <MESSAGE value="redux first action" />
+    <option name="LAST_COMMIT_MESSAGE" value="redux first action" />
   </component>
 </project>
